@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<configuration>
+    <CScene freqAsteroides="30" accBonus="50" nbrStations="4" difficulte="1" />
+</configuration>
+<Noeuds>
+    <node>
+        <Type type="depart" />
+        <PositionRelative x="-150" y="0" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+    </node>
+    <node>
+        <Type type="depart" />
+        <PositionRelative x="150" y="0" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="-37" y="70" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="2" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="55" y="71" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="2" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="-39" y="-33" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="2" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="58" y="-36" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="2" />
+    </node>
+    <node>
+        <Type type="barriere" />
+        <PositionRelative x="-36" y="41" z="0" />
+        <Rotate angle="71.565" />
+        <Scale facteur="1" />
+        <Scale_x x="158" />
+    </node>
+    <node>
+        <Type type="barriere" />
+        <PositionRelative x="-76" y="71" z="0" />
+        <Rotate angle="272.337" />
+        <Scale facteur="1" />
+        <Scale_x x="2452" />
+    </node>
+    <node>
+        <Type type="barriere" />
+        <PositionRelative x="58" y="42" z="0" />
+        <Rotate angle="1.36393" />
+        <Scale facteur="1" />
+        <Scale_x x="2100" />
+    </node>
+    <node>
+        <Type type="barriere" />
+        <PositionRelative x="63" y="-61" z="0" />
+        <Rotate angle="1.59114" />
+        <Scale facteur="1" />
+        <Scale_x x="1800" />
+    </node>
+    <node>
+        <Type type="barriere" />
+        <PositionRelative x="-54" y="-4" z="0" />
+        <Rotate angle="21.5014" />
+        <Scale facteur="1" />
+        <Scale_x x="1773" />
+    </node>
+    <node>
+        <Type type="barriere" />
+        <PositionRelative x="36" y="-11" z="0" />
+        <Rotate angle="47.7263" />
+        <Scale facteur="1" />
+        <Scale_x x="1486" />
+    </node>
+    <node>
+        <Type type="barriere" />
+        <PositionRelative x="17" y="70" z="0" />
+        <Rotate angle="300.069" />
+        <Scale facteur="1" />
+        <Scale_x x="1097" />
+    </node>
+    <node>
+        <Type type="barriere" />
+        <PositionRelative x="-6" y="58" z="0" />
+        <Rotate angle="56.3099" />
+        <Scale facteur="1" />
+        <Scale_x x="1081" />
+    </node>
+    <node>
+        <Type type="barriere" />
+        <PositionRelative x="-18" y="-55" z="0" />
+        <Rotate angle="21.3706" />
+        <Scale facteur="1" />
+        <Scale_x x="1234" />
+    </node>
+</Noeuds>

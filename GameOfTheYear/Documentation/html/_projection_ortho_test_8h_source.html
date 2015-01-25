@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Game Of The Year:  Fichier source de C:/INF2990/Sources/C++/Tests/ProjectionOrthoTest.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="bgDoxy.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Game Of The Year
+   &#160;<span id="projectnumber">Librable 3</span>
+   </div>
+   <div id="projectbrief">Projet de session 2, équipe #3</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Groupes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_937900b87e0c7a5fa01190c395fb83f7.html">Sources</a></li><li class="navelem"><a class="el" href="dir_5c22cddfc196b50ba63694acd539d1ee.html">C++</a></li><li class="navelem"><a class="el" href="dir_745f2cf0bee1df1ab9648c1f7788ce4a.html">Tests</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">ProjectionOrthoTest.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_projection_ortho_test_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifndef _TESTS_PROJECTIONORTHO_H</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define _TESTS_PROJECTIONORTHO_H</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;cppunit/extensions/HelperMacros.h&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span>Vue;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">class </span>ProjectionOrtho;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">//using namespace vue;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;ProjectionOrtho.h&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">//Déclaration des valeurs constantes</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">const</span> <span class="keywordtype">double</span> zoomInMax_ = 1;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">const</span> <span class="keywordtype">double</span> zoomOutMax_ = 10000;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">const</span> <span class="keywordtype">double</span> incrementZoom_ = 1.25;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">const</span> <span class="keywordtype">double</span> xMinFenetreInitiale_ = -100;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">const</span> <span class="keywordtype">double</span> xMaxFenetreInitiale_ = 100;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">const</span> <span class="keywordtype">double</span> yMinFenetreInitiale_ = -100;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">const</span> <span class="keywordtype">double</span> yMaxFenetreInitiale_ = 100;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">const</span> <span class="keywordtype">double</span> zAvantInitial_ = 1;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">const</span> <span class="keywordtype">double</span> zArriereInitial_ = 1000;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> xMinClotureInitiale_ = 0;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> xMaxClotureInitiale_ = 500;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> yMinClotureInitiale_ = 0;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> yMaxClotureInitiale_ = 500;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="class_projection_ortho_test.html">   46</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_projection_ortho_test.html">ProjectionOrthoTest</a> : <span class="keyword">public</span> CppUnit::TestFixture</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">// =================================================================</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="comment">// Déclaration de la suite de tests et des méthodes de tests</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">// Important, vous devez définir chacun de vos cas de tests à l&#39;aide</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">// de la macro CPPUNIT_TEST sinon ce dernier ne sera pas exécuté !</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">// =================================================================</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;   CPPUNIT_TEST_SUITE( <a class="code" href="class_projection_ortho_test.html">ProjectionOrthoTest</a> );</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;   CPPUNIT_TEST( <a class="code" href="group__inf2990.html#gab5b2ca191f7a5b94f228983965234900">testZoomStandard</a> );</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;   CPPUNIT_TEST( <a class="code" href="group__inf2990.html#ga7499dcdb14d6747c3d64bd5e1ef07cbf">testRedimensionnement</a> ) ;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;   CPPUNIT_TEST_SUITE_END();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">// =================================================================</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">// Méthodes pour initialiser et &#39;finaliser&#39; la suite de tests</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="comment">// =================================================================</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#gaf0da04f36972757ddcfc1c09bba812a4">setUp</a>();</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#gafb91f8be6a3a9addf5909684b4f21cb0">tearDown</a>();</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="comment">// =================================================================</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="comment">// Définissez ici les différents cas de tests...</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="comment">// =================================================================</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#gab5b2ca191f7a5b94f228983965234900">testZoomStandard</a>();</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#ga7499dcdb14d6747c3d64bd5e1ef07cbf">testRedimensionnement</a>();</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="comment">//On a uniquement besoin de la vue</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    vue::ProjectionOrtho * projection_;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    Vue * vue_;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">double</span> erreurToleree_;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;};</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#endif // _TESTS_PROJECTIONORTHO_H</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="ttc" id="group__inf2990_html_gafb91f8be6a3a9addf5909684b4f21cb0"><div class="ttname"><a href="group__inf2990.html#gafb91f8be6a3a9addf5909684b4f21cb0">ProjectionOrthoTest::tearDown</a></div><div class="ttdeci">void tearDown()</div><div class="ttdoc">Traitement à effectuer pour &#39;finaliser&#39; cette suite de tests. </div><div class="ttdef"><b>Definition:</b> ProjectionOrthoTest.cpp:49</div></div>
+<div class="ttc" id="group__inf2990_html_gab5b2ca191f7a5b94f228983965234900"><div class="ttname"><a href="group__inf2990.html#gab5b2ca191f7a5b94f228983965234900">ProjectionOrthoTest::testZoomStandard</a></div><div class="ttdeci">void testZoomStandard()</div><div class="ttdoc">Cas de test: zoom in out standard. </div><div class="ttdef"><b>Definition:</b> ProjectionOrthoTest.cpp:65</div></div>
+<div class="ttc" id="group__inf2990_html_ga7499dcdb14d6747c3d64bd5e1ef07cbf"><div class="ttname"><a href="group__inf2990.html#ga7499dcdb14d6747c3d64bd5e1ef07cbf">ProjectionOrthoTest::testRedimensionnement</a></div><div class="ttdeci">void testRedimensionnement()</div><div class="ttdoc">Cas de test : redimensionnement. </div><div class="ttdef"><b>Definition:</b> ProjectionOrthoTest.cpp:133</div></div>
+<div class="ttc" id="class_projection_ortho_test_html"><div class="ttname"><a href="class_projection_ortho_test.html">ProjectionOrthoTest</a></div><div class="ttdef"><b>Definition:</b> ProjectionOrthoTest.h:46</div></div>
+<div class="ttc" id="group__inf2990_html_gaf0da04f36972757ddcfc1c09bba812a4"><div class="ttname"><a href="group__inf2990.html#gaf0da04f36972757ddcfc1c09bba812a4">ProjectionOrthoTest::setUp</a></div><div class="ttdeci">void setUp()</div><div class="ttdoc">Traitement à effectuer pour initialiser cette suite de tests. </div><div class="ttdef"><b>Definition:</b> ProjectionOrthoTest.cpp:28</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Lundi 14 Avril 2014 13:28:59 pour Game Of The Year par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

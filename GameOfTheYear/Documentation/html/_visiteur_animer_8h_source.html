@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Game Of The Year:  Fichier source de C:/INF2990/Sources/C++/Arbre/Visiteur/VisiteurAnimer.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="bgDoxy.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Game Of The Year
+   &#160;<span id="projectnumber">Librable 3</span>
+   </div>
+   <div id="projectbrief">Projet de session 2, équipe #3</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Groupes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_937900b87e0c7a5fa01190c395fb83f7.html">Sources</a></li><li class="navelem"><a class="el" href="dir_5c22cddfc196b50ba63694acd539d1ee.html">C++</a></li><li class="navelem"><a class="el" href="dir_565e2f81fa2dcf2f5d91659d38e41f06.html">Arbre</a></li><li class="navelem"><a class="el" href="dir_6e0100726d1926f57ee6fdba6ea3256e.html">Visiteur</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">VisiteurAnimer.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_visiteur_animer_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifndef __VISITEURANIMER_H__</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __VISITEURANIMER_H__</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_visiteur_abstrait_8h.html">VisiteurAbstrait.h</a>&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_noeud_asteroide_8h.html">NoeudAsteroide.h</a>&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_noeud_barriere_8h.html">NoeudBarriere.h</a>&quot;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_noeud_bonus_8h.html">NoeudBonus.h</a>&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_noeud_depart_8h.html">NoeudDepart.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_noeud_laser_8h.html">NoeudLaser.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_noeud_station_8h.html">NoeudStation.h</a>&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_noeud_vaisseau_8h.html">NoeudVaisseau.h</a>&quot;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_noeud_vortex_8h.html">NoeudVortex.h</a>&quot;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_noeud_vaisseau_virtuel_8h.html">NoeudVaisseauVirtuel.h</a>&quot;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_facade_modele_8h.html">FacadeModele.h</a>&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_noeud_explosion_8h.html">NoeudExplosion.h</a>&quot;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_eclairage_8h.html">Eclairage.h</a>&quot;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_visiteur_animer.html">   29</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_visiteur_animer.html">VisiteurAnimer</a> : <span class="keyword">public</span> <a class="code" href="class_visiteur_abstrait.html">VisiteurAbstrait</a></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="group__inf2990.html#gab8ecbb94ff97cadeea9726752b5f6ae5">VisiteurAnimer</a>();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="group__inf2990.html#ga7c8bfa6a6a871b542ac3ab4250f87562">~VisiteurAnimer</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#ga2060edb254882b8ea74297169afd24be">traiterVaisseau</a>(<a class="code" href="class_noeud_vaisseau.html">NoeudVaisseau</a>&amp; vai);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#ga70475cdbc586d65c4427291a6c69836e">traiterAsteroide</a>(<a class="code" href="class_noeud_asteroide.html">NoeudAsteroide</a>&amp; ast);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#ga26dc264b9a0b74314fe9a8e4afe96c11">traiterBarriere</a>(<a class="code" href="class_noeud_barriere.html">NoeudBarriere</a>&amp; bar);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#gac1fa3e82c83ed591e7cda2787554462d">traiterBonus</a>(<a class="code" href="class_noeud_bonus.html">NoeudBonus</a>&amp; bon);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#ga9335c8fa8bc2431bb5d7f9413b76d504">traiterDepart</a>(<a class="code" href="class_noeud_depart.html">NoeudDepart</a>&amp; dep);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#gabd763c4d29faf591799d75c2fa884ed1">traiterLaser</a>(<a class="code" href="class_noeud_laser.html">NoeudLaser</a>&amp; las);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#ga81ee8830b3864567b2101def062b5f08">traiterStation</a>(<a class="code" href="class_noeud_station.html">NoeudStation</a>&amp; sta);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#ga3d46b148e9a2c75867e05b883eff369f">traiterVortex</a>(<a class="code" href="class_noeud_vortex.html">NoeudVortex</a>&amp; vor);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#ga48865999bdf418e9104df984fc09b312">traiterVaisseauVirtuel</a>(<a class="code" href="class_noeud_vaisseau_virtuel.html">NoeudVaisseauVirtuel</a>&amp; vai);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#ga54a1d18cf4842c15d894efd1cb68c390">traiterExplosion</a>(<a class="code" href="class_noeud_explosion.html">NoeudExplosion</a>&amp; explosion);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#ga7e943a46029699423f7b6d84fd39409a">setTemps</a>(<span class="keywordtype">float</span> temps);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">float</span> getTemps(){<span class="keywordflow">return</span> temps_;}</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="comment">//Temps d&#39;animation. Puisque celui-ci est constant une fois passé on le met ici</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">//plutôt que dans chaque noeud.</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">float</span> temps_;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">// Texte à afficher. Surtout les pdv des stations</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="class_texte.html">Texte</a> texteStations_;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="code" href="class_phont.html">Phont</a> phontStations_;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">///////////////////////////////////////////////////////////////////////////</span></div>
+<div class="ttc" id="_noeud_bonus_8h_html"><div class="ttname"><a href="_noeud_bonus_8h.html">NoeudBonus.h</a></div></div>
+<div class="ttc" id="_noeud_explosion_8h_html"><div class="ttname"><a href="_noeud_explosion_8h.html">NoeudExplosion.h</a></div></div>
+<div class="ttc" id="class_texte_html"><div class="ttname"><a href="class_texte.html">Texte</a></div><div class="ttdoc">Classe qui affiche du texte à l&#39;écran. </div><div class="ttdef"><b>Definition:</b> Texte.h:34</div></div>
+<div class="ttc" id="class_noeud_vortex_html"><div class="ttname"><a href="class_noeud_vortex.html">NoeudVortex</a></div><div class="ttdef"><b>Definition:</b> NoeudVortex.h:23</div></div>
+<div class="ttc" id="group__inf2990_html_gabd763c4d29faf591799d75c2fa884ed1"><div class="ttname"><a href="group__inf2990.html#gabd763c4d29faf591799d75c2fa884ed1">VisiteurAnimer::traiterLaser</a></div><div class="ttdeci">virtual void traiterLaser(NoeudLaser &amp;las)</div><div class="ttdef"><b>Definition:</b> VisiteurAnimer.cpp:348</div></div>
+<div class="ttc" id="class_visiteur_abstrait_html"><div class="ttname"><a href="class_visiteur_abstrait.html">VisiteurAbstrait</a></div><div class="ttdef"><b>Definition:</b> VisiteurAbstrait.h:32</div></div>
+<div class="ttc" id="_noeud_depart_8h_html"><div class="ttname"><a href="_noeud_depart_8h.html">NoeudDepart.h</a></div></div>
+<div class="ttc" id="class_phont_html"><div class="ttname"><a href="class_phont.html">Phont</a></div><div class="ttdef"><b>Definition:</b> Phont.h:37</div></div>
+<div class="ttc" id="_noeud_vortex_8h_html"><div class="ttname"><a href="_noeud_vortex_8h.html">NoeudVortex.h</a></div></div>
+<div class="ttc" id="_visiteur_abstrait_8h_html"><div class="ttname"><a href="_visiteur_abstrait_8h.html">VisiteurAbstrait.h</a></div></div>
+<div class="ttc" id="group__inf2990_html_ga7c8bfa6a6a871b542ac3ab4250f87562"><div class="ttname"><a href="group__inf2990.html#ga7c8bfa6a6a871b542ac3ab4250f87562">VisiteurAnimer::~VisiteurAnimer</a></div><div class="ttdeci">virtual ~VisiteurAnimer()</div><div class="ttdoc">Destructeur vide. </div><div class="ttdef"><b>Definition:</b> VisiteurAnimer.cpp:22</div></div>
+<div class="ttc" id="class_noeud_bonus_html"><div class="ttname"><a href="class_noeud_bonus.html">NoeudBonus</a></div><div class="ttdef"><b>Definition:</b> NoeudBonus.h:25</div></div>
+<div class="ttc" id="group__inf2990_html_ga26dc264b9a0b74314fe9a8e4afe96c11"><div class="ttname"><a href="group__inf2990.html#ga26dc264b9a0b74314fe9a8e4afe96c11">VisiteurAnimer::traiterBarriere</a></div><div class="ttdeci">virtual void traiterBarriere(NoeudBarriere &amp;bar)</div><div class="ttdef"><b>Definition:</b> VisiteurAnimer.cpp:293</div></div>
+<div class="ttc" id="group__inf2990_html_ga81ee8830b3864567b2101def062b5f08"><div class="ttname"><a href="group__inf2990.html#ga81ee8830b3864567b2101def062b5f08">VisiteurAnimer::traiterStation</a></div><div class="ttdeci">virtual void traiterStation(NoeudStation &amp;sta)</div><div class="ttdef"><b>Definition:</b> VisiteurAnimer.cpp:377</div></div>
+<div class="ttc" id="group__inf2990_html_ga70475cdbc586d65c4427291a6c69836e"><div class="ttname"><a href="group__inf2990.html#ga70475cdbc586d65c4427291a6c69836e">VisiteurAnimer::traiterAsteroide</a></div><div class="ttdeci">virtual void traiterAsteroide(NoeudAsteroide &amp;ast)</div><div class="ttdef"><b>Definition:</b> VisiteurAnimer.cpp:260</div></div>
+<div class="ttc" id="class_noeud_depart_html"><div class="ttname"><a href="class_noeud_depart.html">NoeudDepart</a></div><div class="ttdef"><b>Definition:</b> NoeudDepart.h:22</div></div>
+<div class="ttc" id="group__inf2990_html_gac1fa3e82c83ed591e7cda2787554462d"><div class="ttname"><a href="group__inf2990.html#gac1fa3e82c83ed591e7cda2787554462d">VisiteurAnimer::traiterBonus</a></div><div class="ttdeci">virtual void traiterBonus(NoeudBonus &amp;bon)</div><div class="ttdef"><b>Definition:</b> VisiteurAnimer.cpp:308</div></div>
+<div class="ttc" id="group__inf2990_html_ga3d46b148e9a2c75867e05b883eff369f"><div class="ttname"><a href="group__inf2990.html#ga3d46b148e9a2c75867e05b883eff369f">VisiteurAnimer::traiterVortex</a></div><div class="ttdeci">virtual void traiterVortex(NoeudVortex &amp;vor)</div><div class="ttdef"><b>Definition:</b> VisiteurAnimer.cpp:394</div></div>
+<div class="ttc" id="class_noeud_explosion_html"><div class="ttname"><a href="class_noeud_explosion.html">NoeudExplosion</a></div><div class="ttdef"><b>Definition:</b> NoeudExplosion.h:23</div></div>
+<div class="ttc" id="_noeud_asteroide_8h_html"><div class="ttname"><a href="_noeud_asteroide_8h.html">NoeudAsteroide.h</a></div></div>
+<div class="ttc" id="group__inf2990_html_gab8ecbb94ff97cadeea9726752b5f6ae5"><div class="ttname"><a href="group__inf2990.html#gab8ecbb94ff97cadeea9726752b5f6ae5">VisiteurAnimer::VisiteurAnimer</a></div><div class="ttdeci">VisiteurAnimer()</div><div class="ttdoc">Constructeur vide. Assignation du temps d&#39;animation à 0. </div><div class="ttdef"><b>Definition:</b> VisiteurAnimer.cpp:16</div></div>
+<div class="ttc" id="_noeud_vaisseau_virtuel_8h_html"><div class="ttname"><a href="_noeud_vaisseau_virtuel_8h.html">NoeudVaisseauVirtuel.h</a></div></div>
+<div class="ttc" id="class_noeud_laser_html"><div class="ttname"><a href="class_noeud_laser.html">NoeudLaser</a></div><div class="ttdef"><b>Definition:</b> NoeudLaser.h:23</div></div>
+<div class="ttc" id="_noeud_barriere_8h_html"><div class="ttname"><a href="_noeud_barriere_8h.html">NoeudBarriere.h</a></div></div>
+<div class="ttc" id="_eclairage_8h_html"><div class="ttname"><a href="_eclairage_8h.html">Eclairage.h</a></div></div>
+<div class="ttc" id="group__inf2990_html_ga9335c8fa8bc2431bb5d7f9413b76d504"><div class="ttname"><a href="group__inf2990.html#ga9335c8fa8bc2431bb5d7f9413b76d504">VisiteurAnimer::traiterDepart</a></div><div class="ttdeci">virtual void traiterDepart(NoeudDepart &amp;dep)</div><div class="ttdef"><b>Definition:</b> VisiteurAnimer.cpp:333</div></div>
+<div class="ttc" id="class_noeud_station_html"><div class="ttname"><a href="class_noeud_station.html">NoeudStation</a></div><div class="ttdef"><b>Definition:</b> NoeudStation.h:22</div></div>
+<div class="ttc" id="class_noeud_asteroide_html"><div class="ttname"><a href="class_noeud_asteroide.html">NoeudAsteroide</a></div><div class="ttdef"><b>Definition:</b> NoeudAsteroide.h:21</div></div>
+<div class="ttc" id="_facade_modele_8h_html"><div class="ttname"><a href="_facade_modele_8h.html">FacadeModele.h</a></div></div>
+<div class="ttc" id="group__inf2990_html_ga7e943a46029699423f7b6d84fd39409a"><div class="ttname"><a href="group__inf2990.html#ga7e943a46029699423f7b6d84fd39409a">VisiteurAnimer::setTemps</a></div><div class="ttdeci">void setTemps(float temps)</div><div class="ttdef"><b>Definition:</b> VisiteurAnimer.cpp:36</div></div>
+<div class="ttc" id="group__inf2990_html_ga54a1d18cf4842c15d894efd1cb68c390"><div class="ttname"><a href="group__inf2990.html#ga54a1d18cf4842c15d894efd1cb68c390">VisiteurAnimer::traiterExplosion</a></div><div class="ttdeci">virtual void traiterExplosion(NoeudExplosion &amp;explosion)</div><div class="ttdef"><b>Definition:</b> VisiteurAnimer.cpp:132</div></div>
+<div class="ttc" id="group__inf2990_html_ga2060edb254882b8ea74297169afd24be"><div class="ttname"><a href="group__inf2990.html#ga2060edb254882b8ea74297169afd24be">VisiteurAnimer::traiterVaisseau</a></div><div class="ttdeci">virtual void traiterVaisseau(NoeudVaisseau &amp;vai)</div><div class="ttdef"><b>Definition:</b> VisiteurAnimer.cpp:52</div></div>
+<div class="ttc" id="class_noeud_vaisseau_html"><div class="ttname"><a href="class_noeud_vaisseau.html">NoeudVaisseau</a></div><div class="ttdef"><b>Definition:</b> NoeudVaisseau.h:25</div></div>
+<div class="ttc" id="_noeud_station_8h_html"><div class="ttname"><a href="_noeud_station_8h.html">NoeudStation.h</a></div></div>
+<div class="ttc" id="_noeud_vaisseau_8h_html"><div class="ttname"><a href="_noeud_vaisseau_8h.html">NoeudVaisseau.h</a></div></div>
+<div class="ttc" id="class_noeud_vaisseau_virtuel_html"><div class="ttname"><a href="class_noeud_vaisseau_virtuel.html">NoeudVaisseauVirtuel</a></div><div class="ttdoc">get la cible </div><div class="ttdef"><b>Definition:</b> NoeudVaisseauVirtuel.h:31</div></div>
+<div class="ttc" id="group__inf2990_html_ga48865999bdf418e9104df984fc09b312"><div class="ttname"><a href="group__inf2990.html#ga48865999bdf418e9104df984fc09b312">VisiteurAnimer::traiterVaisseauVirtuel</a></div><div class="ttdeci">virtual void traiterVaisseauVirtuel(NoeudVaisseauVirtuel &amp;vai)</div><div class="ttdef"><b>Definition:</b> VisiteurAnimer.cpp:153</div></div>
+<div class="ttc" id="class_noeud_barriere_html"><div class="ttname"><a href="class_noeud_barriere.html">NoeudBarriere</a></div><div class="ttdef"><b>Definition:</b> NoeudBarriere.h:21</div></div>
+<div class="ttc" id="_noeud_laser_8h_html"><div class="ttname"><a href="_noeud_laser_8h.html">NoeudLaser.h</a></div></div>
+<div class="ttc" id="class_visiteur_animer_html"><div class="ttname"><a href="class_visiteur_animer.html">VisiteurAnimer</a></div><div class="ttdef"><b>Definition:</b> VisiteurAnimer.h:29</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Lundi 14 Avril 2014 13:28:59 pour Game Of The Year par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

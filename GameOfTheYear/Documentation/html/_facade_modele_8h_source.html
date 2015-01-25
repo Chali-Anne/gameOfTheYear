@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Game Of The Year:  Fichier source de C:/INF2990/Sources/C++/Application/FacadeModele.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="bgDoxy.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Game Of The Year
+   &#160;<span id="projectnumber">Librable 3</span>
+   </div>
+   <div id="projectbrief">Projet de session 2, équipe #3</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Groupes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_937900b87e0c7a5fa01190c395fb83f7.html">Sources</a></li><li class="navelem"><a class="el" href="dir_5c22cddfc196b50ba63694acd539d1ee.html">C++</a></li><li class="navelem"><a class="el" href="dir_cbb86a3b50c1fcada875952a4e3b7ab6.html">Application</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">FacadeModele.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_facade_modele_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __APPLICATION_FACADEMODELE_H__</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __APPLICATION_FACADEMODELE_H__</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;windows.h&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;GL/glew.h&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;GL/glut.h&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;cassert&gt;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;FreeImage.h&quot;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;VueOrtho.h&quot;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;VueOrbite.h&quot;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;Camera.h&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;Projection.h&quot;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;BoiteEnvironnement.h&quot;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;Utilitaire.h&quot;</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &quot;AideGL.h&quot;</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_arbre_rendu_i_n_f2990_8h.html">ArbreRenduINF2990.h</a>&quot;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_gestion_collision_8h.html">GestionCollision.h</a>&quot;</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_mode_jeu_8h.html">ModeJeu.h</a>&quot;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_zone_jeu_8h.html">ZoneJeu.h</a>&quot;</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_config_scene_8h.html">ConfigScene.h</a>&quot;</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_config_debogage_8h.html">ConfigDebogage.h</a>&quot;</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_config_diverses_utilisateur_8h.html">ConfigDiversesUtilisateur.h</a>&quot;</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#include &quot;tinyxml.h&quot;</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#include &quot;CompteurAffichage.h&quot;</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#include &quot;Vecteur.h&quot;</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_texte_8h.html">Texte.h</a>&quot;</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#include &quot;Phont.h&quot;</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_eclairage_8h.html">Eclairage.h</a>&quot;</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_etat_eclairage_8h.html">EtatEclairage.h</a>&quot;</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_sound_8h.html">Sound.h</a>&quot;</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">class </span><a class="code" href="class_noeud_abstrait.html">NoeudAbstrait</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">class </span><a class="code" href="class_arbre_rendu_i_n_f2990.html">ArbreRenduINF2990</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">class </span><a class="code" href="class_zone_jeu.html">ZoneJeu</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">namespace </span>vue {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;   <span class="keyword">class </span>Vue;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;   <span class="keyword">enum</span> TypeVue {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      ORTHO = 0 ,</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      ORBITE,</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      AUCUNE</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    };</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keyword">namespace </span>utilitaire{</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keyword">class </span>BoiteEnvironnement;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="class_facade_modele.html">   75</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_facade_modele.html">FacadeModele</a></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;{</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="struct_facade_modele_1_1configuration_courante.html">   79</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="struct_facade_modele_1_1configuration_courante.html">configurationCourante</a>{</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordtype">double</span> frequenceAst_;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordtype">double</span> accelerationBon_;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordtype">int</span> nombreSta_;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordtype">int</span> difficulteCarte_;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;   };</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;   <span class="keyword">static</span> <a class="code" href="class_facade_modele.html">FacadeModele</a>* obtenirInstance();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;   <span class="keyword">static</span> <span class="keywordtype">void</span> libererInstance();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;   <span class="keywordtype">void</span> initialiserOpenGL(HWND hWnd);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;   <span class="keywordtype">bool</span> chargerConfiguration(<span class="keyword">const</span> std::string&amp; fichierXML);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;   <span class="keywordtype">bool</span> enregistrerConfiguration(<span class="keyword">const</span> std::string&amp; fichierXML, <span class="keywordtype">bool</span> byPass) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;   <span class="comment">//Enregistre la configuration de la campagne dans un fichier XML.</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;   <span class="keywordtype">void</span> enrConfigurationCampagne(<span class="keywordtype">int</span> tJoueur, <span class="keywordtype">int</span> nJoueurs, <span class="keyword">const</span> std::string&amp; nomFichier);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;      </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;   <span class="keywordtype">void</span> initialiser();</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;   <span class="keyword">inline</span> <a class="code" href="struct_facade_modele_1_1configuration_courante.html">FacadeModele::configurationCourante</a> obtenirConfiguration() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;   <span class="keywordtype">bool</span> assignerConfiguration(<span class="keyword">const</span> <a class="code" href="struct_facade_modele_1_1configuration_courante.html">FacadeModele::configurationCourante</a>&amp; nouvelleConfig);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;   <span class="keywordtype">void</span> libererOpenGL();</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;   <span class="keywordtype">void</span> afficher() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;   <span class="keywordtype">void</span> assignerPlusGrandCoteCadre();</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;   <span class="keyword">const</span> Vecteur3&amp; obtenirPlusGrandCoteCadre() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;   <span class="keywordtype">void</span> recentrerCamera();</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;   <span class="comment">// Affiche le timer</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;   <span class="keywordtype">void</span> afficherTimer() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;   <span class="keywordtype">void</span> assignerEffetsAffichageDebogage();</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;   <span class="keywordtype">void</span> afficherBase() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;   <span class="keywordtype">void</span> rafraichirFenetre() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;   <span class="keyword">inline</span> vue::Vue* obtenirVue();</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;   <span class="keyword">inline</span> <span class="keyword">const</span> <a class="code" href="class_arbre_rendu_i_n_f2990.html">ArbreRenduINF2990</a>* obtenirArbreRenduINF2990() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;   <span class="keyword">inline</span> <a class="code" href="class_arbre_rendu_i_n_f2990.html">ArbreRenduINF2990</a>* obtenirArbreRenduINF2990();</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;   <span class="keywordtype">void</span> reinitialiser();</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;   <span class="keywordtype">void</span> animer(<span class="keywordtype">float</span> temps);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;   <span class="keywordtype">void</span> rectangleElastique(<span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> x2, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> y2);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;   <span class="keywordtype">void</span> setAfficherZoneJeu(<span class="keywordtype">bool</span> b);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;   <span class="keywordtype">void</span> commencerPartie(<span class="keywordtype">bool</span> deuxJoueurs, <span class="keywordtype">bool</span> AI);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;   <span class="keyword">inline</span> <span class="keywordtype">void</span> lancerMinuterie(<span class="keyword">const</span> <span class="keywordtype">int</span>&amp; secondes);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;   <span class="keyword">inline</span> <span class="keyword">const</span> <span class="keywordtype">int</span>&amp; obtenirTempsRestantPartie() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;   <span class="keyword">inline</span> <span class="keywordtype">void</span> replacerTimer(<span class="keyword">const</span> Vecteur2&amp; position);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;   <span class="keyword">inline</span> <span class="keywordtype">void</span> assignerVue(vue::TypeVue type);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;   <span class="keywordtype">void</span> lumieres() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;   <a class="code" href="class_facade_modele.html">FacadeModele</a>();</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;   ~<a class="code" href="class_facade_modele.html">FacadeModele</a>();</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;   <a class="code" href="class_facade_modele.html">FacadeModele</a>(<span class="keyword">const</span> <a class="code" href="class_facade_modele.html">FacadeModele</a>&amp;);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;   <a class="code" href="class_facade_modele.html">FacadeModele</a>&amp; operator =(<span class="keyword">const</span> <a class="code" href="class_facade_modele.html">FacadeModele</a>&amp;);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;   <span class="keyword">static</span> <span class="keyword">const</span> std::string DEFAULT_SCENE;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;   <span class="keyword">static</span> std::string nomCarteCourante_;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;   <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">double</span> maxFreq_, minFreq_, maxAcc_, minAcc_;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;   <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> maxStations_, minStations_, maxDifficulte_, minDifficulte_;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;   <span class="keyword">static</span> <a class="code" href="class_facade_modele.html">FacadeModele</a>* instance_;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;   HWND  hWnd_;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;   HGLRC hGLRC_;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;   HDC   hDC_;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;   vue::Vue* vue_;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;   vue::TypeVue typeVue_;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;   <a class="code" href="class_arbre_rendu_i_n_f2990.html">ArbreRenduINF2990</a>* arbre_;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;   <a class="code" href="class_zone_jeu.html">ZoneJeu</a>* zoneJeu_;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;   <span class="keywordtype">bool</span> afficherZoneJeu_;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <a class="code" href="struct_facade_modele_1_1configuration_courante.html">configurationCourante</a> config_;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="keywordtype">int</span> timerAst_;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;   </div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="keywordtype">int</span> modeJeu_;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">int</span> minuterie_;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <a class="code" href="class_phont.html">Phont</a> phontTimer_;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    <span class="keyword">static</span> Vecteur2 phontTimerPos_;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="comment">// Pour la skybox</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    utilitaire::BoiteEnvironnement* boite_;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="keyword">static</span> Vecteur3 plusGrandCote_;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    Vecteur3 centreCamera_;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <a class="code" href="class_texte.html">Texte</a> texteStations_;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;     <span class="keywordtype">string</span> infos_;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;};</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div>
+<div class="line"><a name="l00242"></a><span class="lineno"><a class="line" href="group__inf2990.html#gaa56cf96b7e381e0f14e2c9a55be913bf">  242</a></span>&#160;<span class="keyword">inline</span> vue::Vue* <a class="code" href="group__inf2990.html#gaa56cf96b7e381e0f14e2c9a55be913bf">FacadeModele::obtenirVue</a>()</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;{</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;   <span class="keywordflow">return</span> vue_;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;}</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;</div>
+<div class="line"><a name="l00258"></a><span class="lineno"><a class="line" href="group__inf2990.html#gaf578161d03b2157cdaa3182900ff61cc">  258</a></span>&#160;<span class="keyword">inline</span> <span class="keyword">const</span> <a class="code" href="class_arbre_rendu_i_n_f2990.html">ArbreRenduINF2990</a>* <a class="code" href="group__inf2990.html#gaf578161d03b2157cdaa3182900ff61cc">FacadeModele::obtenirArbreRenduINF2990</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;   <span class="keywordflow">return</span> arbre_;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;}</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;</div>
+<div class="line"><a name="l00274"></a><span class="lineno"><a class="line" href="group__inf2990.html#ga12d5594db6a9507b24c7e1ffcd6751af">  274</a></span>&#160;<span class="keyword">inline</span> <a class="code" href="class_arbre_rendu_i_n_f2990.html">ArbreRenduINF2990</a>* <a class="code" href="group__inf2990.html#gaf578161d03b2157cdaa3182900ff61cc">FacadeModele::obtenirArbreRenduINF2990</a>()</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;{</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;   <span class="keywordflow">return</span> arbre_;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;}</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div>
+<div class="line"><a name="l00288"></a><span class="lineno"><a class="line" href="group__inf2990.html#ga6aa4f971ea2a42911b90fdceebeedb1a">  288</a></span>&#160;<span class="keyword">inline</span> <a class="code" href="struct_facade_modele_1_1configuration_courante.html">FacadeModele::configurationCourante</a> <a class="code" href="group__inf2990.html#ga6aa4f971ea2a42911b90fdceebeedb1a">FacadeModele::obtenirConfiguration</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <span class="keywordflow">return</span> config_;</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;}</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;</div>
+<div class="line"><a name="l00305"></a><span class="lineno"><a class="line" href="group__inf2990.html#gab4dc90938bc83db08257d547bd67d383">  305</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#gab4dc90938bc83db08257d547bd67d383">FacadeModele::lancerMinuterie</a>(<span class="keyword">const</span> <span class="keywordtype">int</span>&amp; secondes)</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;{</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    minuterie_ = 50*secondes;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;}</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;</div>
+<div class="line"><a name="l00319"></a><span class="lineno"><a class="line" href="group__inf2990.html#ga9a37e96f8b5a9a29504b92bd0d75b7cf">  319</a></span>&#160;<span class="keyword">inline</span> <span class="keyword">const</span> <span class="keywordtype">int</span>&amp; <a class="code" href="group__inf2990.html#ga9a37e96f8b5a9a29504b92bd0d75b7cf">FacadeModele::obtenirTempsRestantPartie</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="keywordflow">return</span> minuterie_;</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;}</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;</div>
+<div class="line"><a name="l00335"></a><span class="lineno"><a class="line" href="group__inf2990.html#ga72ccb0bc85093e2b916d15cf9cc0d979">  335</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#ga72ccb0bc85093e2b916d15cf9cc0d979">FacadeModele::replacerTimer</a>(<span class="keyword">const</span> Vecteur2&amp; position)</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;{</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    phontTimerPos_ = position;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;}</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;</div>
+<div class="line"><a name="l00351"></a><span class="lineno"><a class="line" href="group__inf2990.html#ga508c2319e29bc0e7c296e1e9f7f3a06a">  351</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__inf2990.html#ga508c2319e29bc0e7c296e1e9f7f3a06a">FacadeModele::assignerVue</a>(vue::TypeVue type)</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;{</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <span class="comment">//On ne modifie pas la vue si c&#39;est déjà la vue courante</span></div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <span class="keywordflow">if</span> (type == typeVue_)</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        <span class="keyword">delete</span> vue_;</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <span class="keywordflow">if</span> (type == vue::ORBITE)</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    {</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        typeVue_ = vue::ORBITE;</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        vue_ = <span class="keyword">new</span> vue::VueOrbite(</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        vue::Camera(Vecteur3(200, -500, 1000), </div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;                    Vecteur3(0, 0, 0),       </div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;                    Vecteur3(0, 0, 1),       </div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;                    Vecteur3(0, 0, 1)),      </div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                    0, 500, 0, 500,          </div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                    1, 10000,                 </div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;                    1, 10000, 1.25,          </div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;                    -100, 100, -100, 100     </div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        );</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    }</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (type == vue::ORTHO)</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    {</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        typeVue_ = vue::    ORTHO;</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        vue_ = <span class="keyword">new</span> vue::VueOrtho(</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        vue::Camera(Vecteur3(0, 0, 200), Vecteur3(0, 0, 0),</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;                    Vecteur3(0, 1, 0)  , Vecteur3(0, 0, 1)),</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        0, 500, 0, 500,</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;        1, 1000, 1, 10000, 1.25,</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;        -100, 100, -100, 100</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        );</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    }</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;}</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;<span class="preprocessor">#endif // __APPLICATION_FACADEMODELE_H__</span></div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;</div>
+<div class="ttc" id="group__inf2990_html_gaf578161d03b2157cdaa3182900ff61cc"><div class="ttname"><a href="group__inf2990.html#gaf578161d03b2157cdaa3182900ff61cc">FacadeModele::obtenirArbreRenduINF2990</a></div><div class="ttdeci">const ArbreRenduINF2990 * obtenirArbreRenduINF2990() const </div><div class="ttdoc">Retourne l&#39;arbre de rendu. </div><div class="ttdef"><b>Definition:</b> FacadeModele.h:258</div></div>
+<div class="ttc" id="class_zone_jeu_html"><div class="ttname"><a href="class_zone_jeu.html">ZoneJeu</a></div><div class="ttdef"><b>Definition:</b> ZoneJeu.h:43</div></div>
+<div class="ttc" id="class_facade_modele_html"><div class="ttname"><a href="class_facade_modele.html">FacadeModele</a></div><div class="ttdoc">Classe qui constitue une interface (une façade) sur l&#39;ensemble du modèle et des classes qui le compos...</div><div class="ttdef"><b>Definition:</b> FacadeModele.h:75</div></div>
+<div class="ttc" id="class_texte_html"><div class="ttname"><a href="class_texte.html">Texte</a></div><div class="ttdoc">Classe qui affiche du texte à l&#39;écran. </div><div class="ttdef"><b>Definition:</b> Texte.h:34</div></div>
+<div class="ttc" id="group__inf2990_html_ga508c2319e29bc0e7c296e1e9f7f3a06a"><div class="ttname"><a href="group__inf2990.html#ga508c2319e29bc0e7c296e1e9f7f3a06a">FacadeModele::assignerVue</a></div><div class="ttdeci">void assignerVue(vue::TypeVue type)</div><div class="ttdef"><b>Definition:</b> FacadeModele.h:351</div></div>
+<div class="ttc" id="class_phont_html"><div class="ttname"><a href="class_phont.html">Phont</a></div><div class="ttdef"><b>Definition:</b> Phont.h:37</div></div>
+<div class="ttc" id="group__inf2990_html_ga6aa4f971ea2a42911b90fdceebeedb1a"><div class="ttname"><a href="group__inf2990.html#ga6aa4f971ea2a42911b90fdceebeedb1a">FacadeModele::obtenirConfiguration</a></div><div class="ttdeci">FacadeModele::configurationCourante obtenirConfiguration() const </div><div class="ttdoc">Ajout de Chali pour la vérification. </div><div class="ttdef"><b>Definition:</b> FacadeModele.h:288</div></div>
+<div class="ttc" id="_etat_eclairage_8h_html"><div class="ttname"><a href="_etat_eclairage_8h.html">EtatEclairage.h</a></div></div>
+<div class="ttc" id="group__inf2990_html_gab4dc90938bc83db08257d547bd67d383"><div class="ttname"><a href="group__inf2990.html#gab4dc90938bc83db08257d547bd67d383">FacadeModele::lancerMinuterie</a></div><div class="ttdeci">void lancerMinuterie(const int &amp;secondes)</div><div class="ttdoc">Initialisation de la minuterie lorsqu&#39;on entre dans un des mode de jeu. </div><div class="ttdef"><b>Definition:</b> FacadeModele.h:305</div></div>
+<div class="ttc" id="_eclairage_8h_html"><div class="ttname"><a href="_eclairage_8h.html">Eclairage.h</a></div></div>
+<div class="ttc" id="_texte_8h_html"><div class="ttname"><a href="_texte_8h.html">Texte.h</a></div></div>
+<div class="ttc" id="group__inf2990_html_ga9a37e96f8b5a9a29504b92bd0d75b7cf"><div class="ttname"><a href="group__inf2990.html#ga9a37e96f8b5a9a29504b92bd0d75b7cf">FacadeModele::obtenirTempsRestantPartie</a></div><div class="ttdeci">const int &amp; obtenirTempsRestantPartie() const </div><div class="ttdoc">Retourne le nombre de secondes restantes à la partie en cours. </div><div class="ttdef"><b>Definition:</b> FacadeModele.h:319</div></div>
+<div class="ttc" id="_config_diverses_utilisateur_8h_html"><div class="ttname"><a href="_config_diverses_utilisateur_8h.html">ConfigDiversesUtilisateur.h</a></div></div>
+<div class="ttc" id="class_arbre_rendu_i_n_f2990_html"><div class="ttname"><a href="class_arbre_rendu_i_n_f2990.html">ArbreRenduINF2990</a></div><div class="ttdoc">Classe qui représente l&#39;arbre de rendu spécifique au projet de INF2990. </div><div class="ttdef"><b>Definition:</b> ArbreRenduINF2990.h:57</div></div>
+<div class="ttc" id="group__inf2990_html_ga72ccb0bc85093e2b916d15cf9cc0d979"><div class="ttname"><a href="group__inf2990.html#ga72ccb0bc85093e2b916d15cf9cc0d979">FacadeModele::replacerTimer</a></div><div class="ttdeci">void replacerTimer(const Vecteur2 &amp;position)</div><div class="ttdoc">Repositionne le timer pour le centrer. </div><div class="ttdef"><b>Definition:</b> FacadeModele.h:335</div></div>
+<div class="ttc" id="_config_scene_8h_html"><div class="ttname"><a href="_config_scene_8h.html">ConfigScene.h</a></div></div>
+<div class="ttc" id="_zone_jeu_8h_html"><div class="ttname"><a href="_zone_jeu_8h.html">ZoneJeu.h</a></div></div>
+<div class="ttc" id="_arbre_rendu_i_n_f2990_8h_html"><div class="ttname"><a href="_arbre_rendu_i_n_f2990_8h.html">ArbreRenduINF2990.h</a></div></div>
+<div class="ttc" id="class_noeud_abstrait_html"><div class="ttname"><a href="class_noeud_abstrait.html">NoeudAbstrait</a></div><div class="ttdoc">Classe de base du patron composite utilisée pour créer l&#39;arbre de rendu. </div><div class="ttdef"><b>Definition:</b> NoeudAbstrait.h:47</div></div>
+<div class="ttc" id="struct_facade_modele_1_1configuration_courante_html"><div class="ttname"><a href="struct_facade_modele_1_1configuration_courante.html">FacadeModele::configurationCourante</a></div><div class="ttdoc">Pour la configuration et les vérifications qui s&#39;ensuivent. </div><div class="ttdef"><b>Definition:</b> FacadeModele.h:79</div></div>
+<div class="ttc" id="_config_debogage_8h_html"><div class="ttname"><a href="_config_debogage_8h.html">ConfigDebogage.h</a></div></div>
+<div class="ttc" id="_sound_8h_html"><div class="ttname"><a href="_sound_8h.html">Sound.h</a></div></div>
+<div class="ttc" id="_gestion_collision_8h_html"><div class="ttname"><a href="_gestion_collision_8h.html">GestionCollision.h</a></div></div>
+<div class="ttc" id="group__inf2990_html_gaa56cf96b7e381e0f14e2c9a55be913bf"><div class="ttname"><a href="group__inf2990.html#gaa56cf96b7e381e0f14e2c9a55be913bf">FacadeModele::obtenirVue</a></div><div class="ttdeci">vue::Vue * obtenirVue()</div><div class="ttdoc">Retourne la vue courante. </div><div class="ttdef"><b>Definition:</b> FacadeModele.h:242</div></div>
+<div class="ttc" id="_mode_jeu_8h_html"><div class="ttname"><a href="_mode_jeu_8h.html">ModeJeu.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Lundi 14 Avril 2014 13:28:58 pour Game Of The Year par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

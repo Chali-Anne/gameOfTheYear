@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Game Of The Year: Référence du fichier C:/INF2990/Sources/C++/Interface/FacadeJNI.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="bgDoxy.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Game Of The Year
+   &#160;<span id="projectnumber">Librable 3</span>
+   </div>
+   <div id="projectbrief">Projet de session 2, équipe #3</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Groupes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_937900b87e0c7a5fa01190c395fb83f7.html">Sources</a></li><li class="navelem"><a class="el" href="dir_5c22cddfc196b50ba63694acd539d1ee.html">C++</a></li><li class="navelem"><a class="el" href="dir_e86f56cfca6d6586b14866874da84dfb.html">Interface</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier FacadeJNI.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;windows.h&gt;</code><br/>
+<code>#include &quot;jawt_md.h&quot;</code><br/>
+<code>#include &quot;JAWT_Info.h&quot;</code><br/>
+<code>#include &quot;FreeImage.h&quot;</code><br/>
+<code>#include &quot;FacadeJNI.h&quot;</code><br/>
+<code>#include &quot;Vecteur.h&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_facade_modele_8h_source.html">FacadeModele.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_config_debogage_8h_source.html">ConfigDebogage.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_config_diverses_utilisateur_8h_source.html">ConfigDiversesUtilisateur.h</a>&quot;</code><br/>
+<code>#include &quot;Vue.h&quot;</code><br/>
+<code>#include &quot;AideGL.h&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_arbre_rendu_i_n_f2990_8h_source.html">ArbreRenduINF2990.h</a>&quot;</code><br/>
+<code>#include &quot;CompteurAffichage.h&quot;</code><br/>
+<code>#include &quot;Utilitaire.h&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_mode_jeu_8h_source.html">ModeJeu.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_gestion_collision_8h_source.html">GestionCollision.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_etat_eclairage_8h_source.html">EtatEclairage.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_noeud_laser_8h_source.html">NoeudLaser.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_noeud_vaisseau_8h_source.html">NoeudVaisseau.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_texte_8h_source.html">Texte.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_banc_tests_8h_source.html">BancTests.h</a>&quot;</code><br/>
+<code>#include &lt;string&gt;</code><br/>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:ga1b4431b28f66684d20d9e1f2f6236ba4"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga1b4431b28f66684d20d9e1f2f6236ba4">Java_ca_polymtl_inf2990_Native_initialiserOpenGL</a> (JNIEnv *env, jclass, jobject canvas)</td></tr>
+<tr class="separator:ga1b4431b28f66684d20d9e1f2f6236ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga95478a299275dee40bab950dd3f0fbce"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga95478a299275dee40bab950dd3f0fbce">Java_ca_polymtl_inf2990_Native_libererOpenGL</a> (JNIEnv *env, jclass, jobject canvas)</td></tr>
+<tr class="separator:ga95478a299275dee40bab950dd3f0fbce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaec39fa2db32d74d6d40f9a7c51a21957"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gaec39fa2db32d74d6d40f9a7c51a21957">Java_ca_polymtl_inf2990_Native_dessinerOpenGL</a> (JNIEnv *env, jclass, jobject canvas)</td></tr>
+<tr class="separator:gaec39fa2db32d74d6d40f9a7c51a21957"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1cb428f05ca53512b4f1798bb52d99ed"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga1cb428f05ca53512b4f1798bb52d99ed">Java_ca_polymtl_inf2990_Native_redimensionnerFenetre</a> (JNIEnv *, jclass, jint largeur, jint hauteur)</td></tr>
+<tr class="separator:ga1cb428f05ca53512b4f1798bb52d99ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga47df5ccce457342b9f308c7dc74c8f07"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga47df5ccce457342b9f308c7dc74c8f07">Java_ca_polymtl_inf2990_Native_animer</a> (JNIEnv *, jclass, jfloat temps)</td></tr>
+<tr class="separator:ga47df5ccce457342b9f308c7dc74c8f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa4e920219c726e21c5ca4c7cf18be493"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gaa4e920219c726e21c5ca4c7cf18be493">Java_ca_polymtl_inf2990_Native_zoomIn</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:gaa4e920219c726e21c5ca4c7cf18be493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga26a26ce62d8b0aa7d326e736380b179a"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga26a26ce62d8b0aa7d326e736380b179a">Java_ca_polymtl_inf2990_Native_zoomOut</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:ga26a26ce62d8b0aa7d326e736380b179a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga28625a12c51d67e21ca0a5f572f18e64"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga28625a12c51d67e21ca0a5f572f18e64">Java_ca_polymtl_inf2990_Native_zoomInRectangle</a> (JNIEnv *, jclass, jint x1, jint y1, jint x2, jint y2)</td></tr>
+<tr class="separator:ga28625a12c51d67e21ca0a5f572f18e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd2c8ca87005657240d3097e662ec5e8"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gabd2c8ca87005657240d3097e662ec5e8">Java_ca_polymtl_inf2990_Native_zoomOutRectangle</a> (JNIEnv *, jclass, jint x1, jint y1, jint x2, jint y2)</td></tr>
+<tr class="separator:gabd2c8ca87005657240d3097e662ec5e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1c1ff41d821e524b3f7936031b855571"><td class="memItemLeft" align="right" valign="top">JNIEXPORT jint JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga1c1ff41d821e524b3f7936031b855571">Java_ca_polymtl_inf2990_Native_obtenirAffichagesParSeconde</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:ga1c1ff41d821e524b3f7936031b855571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab07d4a860b7d14684a14c3a487118e43"><td class="memItemLeft" align="right" valign="top">JNIEXPORT jint JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gab07d4a860b7d14684a14c3a487118e43">Java_ca_polymtl_inf2990_Native_executerTests</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:gab07d4a860b7d14684a14c3a487118e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad427300981957a45ee9e54a2ecb89cc1"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gad427300981957a45ee9e54a2ecb89cc1">Java_ca_polymtl_inf2990_Native_mouvementRelatif</a> (JNIEnv *, jclass, jdouble x, jdouble y)</td></tr>
+<tr class="separator:gad427300981957a45ee9e54a2ecb89cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac4776da628dccd54da6b057466850340"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gac4776da628dccd54da6b057466850340">Java_ca_polymtl_inf2990_Native_mouvementAbsolu</a> (JNIEnv *, jclass, jint x, jint y)</td></tr>
+<tr class="separator:gac4776da628dccd54da6b057466850340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga567662835ce60856e1d9acfa9534a26c"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga567662835ce60856e1d9acfa9534a26c">Java_ca_polymtl_inf2990_Native_creerBarriere</a> (JNIEnv *, jclass, jint x1, jint y1, jint x2, jint y2)</td></tr>
+<tr class="separator:ga567662835ce60856e1d9acfa9534a26c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf8b7849dbb705f267c6bfec2dfdd6a82"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gaf8b7849dbb705f267c6bfec2dfdd6a82">Java_ca_polymtl_inf2990_Native_creerPortails</a> (JNIEnv *, jclass, jint x1, jint y1, jint x2, jint y2)</td></tr>
+<tr class="separator:gaf8b7849dbb705f267c6bfec2dfdd6a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga46fd66365a91bb950618c58d924e1f28"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga46fd66365a91bb950618c58d924e1f28">Java_ca_polymtl_inf2990_Native_creerStation</a> (JNIEnv *, jclass, jint x, jint y)</td></tr>
+<tr class="separator:ga46fd66365a91bb950618c58d924e1f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga744c478d8a718abe0bb601b43c32f63c"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga744c478d8a718abe0bb601b43c32f63c">Java_ca_polymtl_inf2990_Native_creerAccelerateur</a> (JNIEnv *, jclass, jint x, jint y)</td></tr>
+<tr class="separator:ga744c478d8a718abe0bb601b43c32f63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga88f402b91aecb6349a4a274d48613039"><td class="memItemLeft" align="right" valign="top">JNIEXPORT jboolean JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga88f402b91aecb6349a4a274d48613039">Java_ca_polymtl_inf2990_Native_selection__IIZ</a> (JNIEnv *, jclass, jint x, jint y, jboolean destructive)</td></tr>
+<tr class="separator:ga88f402b91aecb6349a4a274d48613039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae6cb95e3c9199c92d5cfddfcdf49ccbe"><td class="memItemLeft" align="right" valign="top">JNIEXPORT jboolean JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gae6cb95e3c9199c92d5cfddfcdf49ccbe">Java_ca_polymtl_inf2990_Native_selection__IIIIZ</a> (JNIEnv *, jclass, jint x1, jint y1, jint x2, jint y2, jboolean destructive)</td></tr>
+<tr class="separator:gae6cb95e3c9199c92d5cfddfcdf49ccbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacbb8c041b4e29e65eb55916d3e0c73ff"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gacbb8c041b4e29e65eb55916d3e0c73ff">Java_ca_polymtl_inf2990_Native_duplication</a> (JNIEnv *, jclass, jint x, jint y, jboolean definitive)</td></tr>
+<tr class="separator:gacbb8c041b4e29e65eb55916d3e0c73ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3398f9819f967683620ccb9a9ea964f6"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga3398f9819f967683620ccb9a9ea964f6">Java_ca_polymtl_inf2990_Native_annulerDupplicationPrecedente</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:ga3398f9819f967683620ccb9a9ea964f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab041d3f49983f3b1a3626a9d2f88536a"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gab041d3f49983f3b1a3626a9d2f88536a">Java_ca_polymtl_inf2990_Native_deplacerObjets</a> (JNIEnv *, jclass, jint xInitial, jint yInitial, jint x, jint y)</td></tr>
+<tr class="separator:gab041d3f49983f3b1a3626a9d2f88536a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeefe4e64c43d2aed330b3156ad224728"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gaeefe4e64c43d2aed330b3156ad224728">Java_ca_polymtl_inf2990_Native_rotation</a> (JNIEnv *, jclass, jdouble degres)</td></tr>
+<tr class="separator:gaeefe4e64c43d2aed330b3156ad224728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadddd0e4227c2a16a0d410683a31cb104"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gadddd0e4227c2a16a0d410683a31cb104">Java_ca_polymtl_inf2990_Native_miseAEchelle</a> (JNIEnv *, jclass, jdouble facteur)</td></tr>
+<tr class="separator:gadddd0e4227c2a16a0d410683a31cb104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8e9ea49c7731d9a38e7e5cfe88cc41cd"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga8e9ea49c7731d9a38e7e5cfe88cc41cd">Java_ca_polymtl_inf2990_Native_supprimerObjets</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:ga8e9ea49c7731d9a38e7e5cfe88cc41cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga18054b3d21c701aa21c44061e1cccfb9"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga18054b3d21c701aa21c44061e1cccfb9">Java_ca_polymtl_inf2990_Native_rectangleSelection</a> (JNIEnv *, jclass, jint x1, jint y1, jint x2, jint y2)</td></tr>
+<tr class="separator:ga18054b3d21c701aa21c44061e1cccfb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga54fab61b22af6532a45c79955174ff42"><td class="memItemLeft" align="right" valign="top">JNIEXPORT jdouble JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga54fab61b22af6532a45c79955174ff42">Java_ca_polymtl_inf2990_Native_obtenirFrequenceAsteroides</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:ga54fab61b22af6532a45c79955174ff42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7f829aeb63edd052854f943fc8a4329b"><td class="memItemLeft" align="right" valign="top">JNIEXPORT jdouble JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga7f829aeb63edd052854f943fc8a4329b">Java_ca_polymtl_inf2990_Native_obtenirAccelerationBonus</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:ga7f829aeb63edd052854f943fc8a4329b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf353703d4053d0110e819e0db6f5c8f3"><td class="memItemLeft" align="right" valign="top">JNIEXPORT jint JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gaf353703d4053d0110e819e0db6f5c8f3">Java_ca_polymtl_inf2990_Native_obtenirStationsEnJeu</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:gaf353703d4053d0110e819e0db6f5c8f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8110df75325b2ff534d29f408bea0b83"><td class="memItemLeft" align="right" valign="top">JNIEXPORT jint JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga8110df75325b2ff534d29f408bea0b83">Java_ca_polymtl_inf2990_Native_obtenirDifficulte</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:ga8110df75325b2ff534d29f408bea0b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga222ba93e3264758092f080192e94af35"><td class="memItemLeft" align="right" valign="top">JNIEXPORT jboolean JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga222ba93e3264758092f080192e94af35">Java_ca_polymtl_inf2990_Native_Configuration</a> (JNIEnv *env, jclass, jdouble frequence, jdouble acceleration, jint stations, jint difficulte)</td></tr>
+<tr class="separator:ga222ba93e3264758092f080192e94af35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9a4fa154177b13596c39c2bec68a6878"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga9a4fa154177b13596c39c2bec68a6878">Java_ca_polymtl_inf2990_Native_assignerTouches</a> (JNIEnv *env, jclass, jstring chaineTouches)</td></tr>
+<tr class="separator:ga9a4fa154177b13596c39c2bec68a6878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad133b752ac14717f7182fd976a749c5f"><td class="memItemLeft" align="right" valign="top">JNIEXPORT jstring JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gad133b752ac14717f7182fd976a749c5f">Java_ca_polymtl_inf2990_Native_obtenirTouches</a> (JNIEnv *env, jclass)</td></tr>
+<tr class="separator:gad133b752ac14717f7182fd976a749c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae5019a1ef829d5162a667da78d9dd93f"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gae5019a1ef829d5162a667da78d9dd93f">Java_ca_polymtl_inf2990_Native_assignerDuree</a> (JNIEnv *, jclass, jint duree)</td></tr>
+<tr class="separator:gae5019a1ef829d5162a667da78d9dd93f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga856ee0151fee8585229c8d33ffb0dfdc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga856ee0151fee8585229c8d33ffb0dfdc"></a>
+JNIEXPORT jint JNICALL&#160;</td><td class="memItemRight" valign="bottom"><b>Java_ca_polymtl_inf2990_Native_obtenirDuree</b> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:ga856ee0151fee8585229c8d33ffb0dfdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabe93031102b706377d17c2c29df38f02"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gabe93031102b706377d17c2c29df38f02">Java_ca_polymtl_inf2990_Native_assignerPDV</a> (JNIEnv *, jclass, jint pdv)</td></tr>
+<tr class="separator:gabe93031102b706377d17c2c29df38f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga75880ed0c8d03b547d8925463df47ae5"><td class="memItemLeft" align="right" valign="top">JNIEXPORT jint JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga75880ed0c8d03b547d8925463df47ae5">Java_ca_polymtl_inf2990_Native_obtenirPDV</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:ga75880ed0c8d03b547d8925463df47ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad878377b2ce9f510a893c5d8ef742933"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gad878377b2ce9f510a893c5d8ef742933">Java_ca_polymtl_inf2990_Native_assignerAffichageDebog</a> (JNIEnv *env, jclass, jintArray tInfos)</td></tr>
+<tr class="separator:gad878377b2ce9f510a893c5d8ef742933"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5c30164bfc6f197ae29b312fefa57c34"><td class="memItemLeft" align="right" valign="top">JNIEXPORT jintArray JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga5c30164bfc6f197ae29b312fefa57c34">Java_ca_polymtl_inf2990_Native_obtenirAffichageDebog</a> (JNIEnv *env, jclass)</td></tr>
+<tr class="separator:ga5c30164bfc6f197ae29b312fefa57c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaacd82bf6de641b9cfa19c643cbd6815b"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gaacd82bf6de641b9cfa19c643cbd6815b">Java_ca_polymtl_inf2990_Native_sauvegarderConfigurationsDiverses</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:gaacd82bf6de641b9cfa19c643cbd6815b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5fdb37862adc9492a0c4cb216e8836be"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga5fdb37862adc9492a0c4cb216e8836be">Java_ca_polymtl_inf2990_Native_chargerConfigurationsDiverses</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:ga5fdb37862adc9492a0c4cb216e8836be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafd33059368c32b3ef5b16ecc190ccee2"><td class="memItemLeft" align="right" valign="top">JNIEXPORT jboolean JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gafd33059368c32b3ef5b16ecc190ccee2">Java_ca_polymtl_inf2990_Native_charger</a> (JNIEnv *env, jclass, jstring nom)</td></tr>
+<tr class="separator:gafd33059368c32b3ef5b16ecc190ccee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4720f5cd2a1a05193e354c436d75d9af"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4720f5cd2a1a05193e354c436d75d9af"></a>
+JNIEXPORT jboolean JNICALL&#160;</td><td class="memItemRight" valign="bottom"><b>Java_ca_polymtl_inf2990_Native_enregistrer</b> (JNIEnv *env, jclass, jstring nom, jboolean byPass)</td></tr>
+<tr class="separator:ga4720f5cd2a1a05193e354c436d75d9af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga670fa3cb93b5258b9f3f484a52d33420"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga670fa3cb93b5258b9f3f484a52d33420"></a>
+**fn JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><b>Java_ca_polymtl_inf2990_Native_enregistrerCampagne</b> (JNIEnv *, jclass, jint, jint)</td></tr>
+<tr class="separator:ga670fa3cb93b5258b9f3f484a52d33420"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaec98d93f75afeeca66fab8276974bf45"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaec98d93f75afeeca66fab8276974bf45"></a>
+**Cette fonction enregistre <br class="typebreak"/>
+les parametres de la campagne <br class="typebreak"/>
+*****JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><b>Java_ca_polymtl_inf2990_Native_enregistrerCampagne</b> (JNIEnv *env, jclass, jint typeJoueur, jint nbJoueurs, jstring nomDuFichier)</td></tr>
+<tr class="separator:gaec98d93f75afeeca66fab8276974bf45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaefc7a1ecb7b15dd981329eec1ceeb176"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gaefc7a1ecb7b15dd981329eec1ceeb176">Java_ca_polymtl_inf2990_Native_envoyerDate</a> (JNIEnv *env, jclass, jstring temps)</td></tr>
+<tr class="separator:gaefc7a1ecb7b15dd981329eec1ceeb176"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad3e8fd889e32b9893f2f52c3ae91654c"><td class="memItemLeft" align="right" valign="top">JNIEXPORT jboolean JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gad3e8fd889e32b9893f2f52c3ae91654c">Java_ca_polymtl_inf2990_Native_OutOfBounds</a> (JNIEnv *, jclass, jint x, jint y)</td></tr>
+<tr class="separator:gad3e8fd889e32b9893f2f52c3ae91654c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab73f224c5468a239e5d110251a8e1ed3"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gab73f224c5468a239e5d110251a8e1ed3">Java_ca_polymtl_inf2990_Native_avancer</a> (JNIEnv *, jclass, jint joueur, jboolean boutonPresse)</td></tr>
+<tr class="separator:gab73f224c5468a239e5d110251a8e1ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7bb43da51a504f329ffc396e01866712"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7bb43da51a504f329ffc396e01866712"></a>
+JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><b>Java_ca_polymtl_inf2990_Native_tourner</b> (JNIEnv *, jclass, jint joueur, jint direction, jboolean go)</td></tr>
+<tr class="separator:ga7bb43da51a504f329ffc396e01866712"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9e35e933de8d1567646ecdbe48cbe4e3"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga9e35e933de8d1567646ecdbe48cbe4e3">Java_ca_polymtl_inf2990_Native_demiTour</a> (JNIEnv *, jclass, jint joueur, jboolean boutonAppuyer)</td></tr>
+<tr class="separator:ga9e35e933de8d1567646ecdbe48cbe4e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8cef126fc41864e04c12c6336e829327"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga8cef126fc41864e04c12c6336e829327">Java_ca_polymtl_inf2990_Native_tirer</a> (JNIEnv *, jclass, jint joueur, jboolean tir)</td></tr>
+<tr class="separator:ga8cef126fc41864e04c12c6336e829327"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab1258ed1362b175ae0847db6a4405ac6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab1258ed1362b175ae0847db6a4405ac6"></a>
+JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><b>Java_ca_polymtl_inf2990_Native_modifierZoneDeJeu</b> (JNIEnv *, jclass, jboolean b)</td></tr>
+<tr class="separator:gab1258ed1362b175ae0847db6a4405ac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga249ffa76758d3d00dc2ced6f5aa40082"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga249ffa76758d3d00dc2ced6f5aa40082">Java_ca_polymtl_inf2990_Native_initialiserJeu</a> (JNIEnv *, jclass, jint mode, jboolean deuxJoueurs, jboolean AI)</td></tr>
+<tr class="separator:ga249ffa76758d3d00dc2ced6f5aa40082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga65b747a83c7e19292b4268e7f6e2787e"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga65b747a83c7e19292b4268e7f6e2787e">Java_ca_polymtl_inf2990_Native_resetCollision</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:ga65b747a83c7e19292b4268e7f6e2787e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab78b8027551a9af34d80fa6757bf8433"><td class="memItemLeft" align="right" valign="top">JNIEXPORT jint JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gab78b8027551a9af34d80fa6757bf8433">Java_ca_polymtl_inf2990_Native_isGameOver</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:gab78b8027551a9af34d80fa6757bf8433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa4d0bb367509644cde4c456507b08c36"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gaa4d0bb367509644cde4c456507b08c36">Java_ca_polymtl_inf2990_Native_toggleAmbiantLightning</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:gaa4d0bb367509644cde4c456507b08c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga86036727014a2ae8a16d474cfed159cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga86036727014a2ae8a16d474cfed159cd"></a>
+JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><b>Java_ca_polymtl_inf2990_Native_toggleDirectionalLightning</b> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:ga86036727014a2ae8a16d474cfed159cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadfa4deb8e3718c6a353627156f58f9bd"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#gadfa4deb8e3718c6a353627156f58f9bd">Java_ca_polymtl_inf2990_Native_toggleSpotlights</a> (JNIEnv *, jclass)</td></tr>
+<tr class="separator:gadfa4deb8e3718c6a353627156f58f9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga313a4330f252c0d75d439cf32a363fae"><td class="memItemLeft" align="right" valign="top">JNIEXPORT void JNICALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__inf2990.html#ga313a4330f252c0d75d439cf32a363fae">Java_ca_polymtl_inf2990_Native_setVueOrbite</a> (JNIEnv *, jclass, jboolean orbite)</td></tr>
+<tr class="separator:ga313a4330f252c0d75d439cf32a363fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><dl class="section author"><dt>Auteur</dt><dd>Martin Bisson </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2007-08-14 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Lundi 14 Avril 2014 13:28:59 pour Game Of The Year par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

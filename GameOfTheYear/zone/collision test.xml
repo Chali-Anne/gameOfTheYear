@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<configuration>
+    <CScene freqAsteroides="40" accBonus="2" nbrStations="1" difficulte="4" />
+</configuration>
+<Noeuds>
+    <node>
+        <Type type="depart" />
+        <PositionRelative x="-150" y="0" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+    </node>
+    <node>
+        <Type type="depart" />
+        <PositionRelative x="150" y="0" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="-135" y="-29" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="1" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="1" y="-31" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="1" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="107" y="-31" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="1" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="-24" y="84" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="1" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="-182" y="85" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="1" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="45" y="125" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="1" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="-122" y="-117" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="1" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="171" y="-38" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="1" />
+    </node>
+</Noeuds>

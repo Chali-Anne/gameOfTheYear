@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<configuration>
+    <CScene freqAsteroides="3" accBonus="1" nbrStations="1" difficulte="1" />
+</configuration>
+<Noeuds>
+    <node>
+        <Type type="depart" />
+        <PositionRelative x="-150" y="0" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+    </node>
+    <node>
+        <Type type="depart" />
+        <PositionRelative x="150" y="0" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+    </node>
+    <node>
+        <Type type="bonus" />
+        <PositionRelative x="96" y="48" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Spin angle="0" />
+    </node>
+    <node>
+        <Type type="bonus" />
+        <PositionRelative x="-22" y="132" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Spin angle="0" />
+    </node>
+    <node>
+        <Type type="bonus" />
+        <PositionRelative x="-83" y="-32" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Spin angle="0" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="88" y="-129" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="-842150451" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="-275" y="138" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="-842150451" />
+    </node>
+    <node>
+        <Type type="barriere" />
+        <PositionRelative x="256" y="-4" z="0" />
+        <Rotate angle="-71.3631" />
+        <Scale facteur="1" />
+        <Scale_x x="13455" />
+    </node>
+</Noeuds>

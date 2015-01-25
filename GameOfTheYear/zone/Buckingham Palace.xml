@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<configuration>
+    <CScene freqAsteroides="40" accBonus="75" nbrStations="1" difficulte="4" />
+</configuration>
+<Noeuds>
+    <node>
+        <Type type="depart" />
+        <PositionRelative x="-150" y="0" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+    </node>
+    <node>
+        <Type type="depart" />
+        <PositionRelative x="150" y="0" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+    </node>
+    <node>
+        <Type type="barriere" />
+        <PositionRelative x="-85" y="26" z="0" />
+        <Rotate angle="86.798" />
+        <Scale facteur="1" />
+        <Scale_x x="7161" />
+    </node>
+    <node>
+        <Type type="barriere" />
+        <PositionRelative x="37" y="4" z="0" />
+        <Rotate angle="44.7901" />
+        <Scale facteur="1" />
+        <Scale_x x="9652" />
+    </node>
+    <node>
+        <Type type="barriere" />
+        <PositionRelative x="-15" y="109" z="0" />
+        <Rotate angle="359.438" />
+        <Scale facteur="1" />
+        <Scale_x x="5100" />
+    </node>
+    <node>
+        <Type type="barriere" />
+        <PositionRelative x="-69" y="-60" z="0" />
+        <Rotate angle="329.036" />
+        <Scale facteur="1" />
+        <Scale_x x="1457" />
+    </node>
+    <node>
+        <Type type="barriere" />
+        <PositionRelative x="85" y="96" z="0" />
+        <Rotate angle="318.366" />
+        <Scale facteur="1" />
+        <Scale_x x="602" />
+    </node>
+    <node>
+        <Type type="vortex" />
+        <PositionRelative x="54" y="81" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Kids />
+        <Biais angle="0" />
+    </node>
+    <node>
+        <Type type="vortex" />
+        <PositionRelative x="173" y="-104" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Kids />
+        <Biais angle="0" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="-46" y="-23" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="1" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="-63" y="81" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="1" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="-170" y="109" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="1" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="-192" y="-133" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="1" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="30" y="-117" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="1" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="236" y="84" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="1" />
+    </node>
+    <node>
+        <Type type="vortex" />
+        <PositionRelative x="347" y="42" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Kids />
+        <Biais angle="0" />
+    </node>
+    <node>
+        <Type type="vortex" />
+        <PositionRelative x="-288" y="-61" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Kids />
+        <Biais angle="0" />
+    </node>
+    <node>
+        <Type type="vortex" />
+        <PositionRelative x="-262" y="132" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Kids />
+        <Biais angle="0" />
+    </node>
+    <node>
+        <Type type="vortex" />
+        <PositionRelative x="318" y="-193" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Kids />
+        <Biais angle="0" />
+    </node>
+    <node>
+        <Type type="vortex" />
+        <PositionRelative x="189" y="181" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Kids />
+        <Biais angle="0" />
+    </node>
+    <node>
+        <Type type="vortex" />
+        <PositionRelative x="89" y="-117" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Kids />
+        <Biais angle="0" />
+    </node>
+    <node>
+        <Type type="bonus" />
+        <PositionRelative x="-32" y="-95" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Spin angle="0" />
+    </node>
+    <node>
+        <Type type="bonus" />
+        <PositionRelative x="-90" y="156" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Spin angle="0" />
+    </node>
+    <node>
+        <Type type="bonus" />
+        <PositionRelative x="219" y="-22" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Spin angle="0" />
+    </node>
+    <node>
+        <Type type="bonus" />
+        <PositionRelative x="-69" y="-167" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Spin angle="0" />
+    </node>
+    <node>
+        <Type type="bonus" />
+        <PositionRelative x="336" y="-99" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Spin angle="0" />
+    </node>
+    <node>
+        <Type type="station" />
+        <PositionRelative x="219" y="-132" z="0" />
+        <Rotate angle="0" />
+        <Scale facteur="1" />
+        <Biais angle="0" />
+        <HP pdv="1" />
+    </node>
+    <node>
+        <Type type="barriere" />
+        <PositionRelative x="-330" y="-121" z="0" />
+        <Rotate angle="319.764" />
+        <Scale facteur="1" />
+        <Scale_x x="5108" />
+    </node>
+</Noeuds>
